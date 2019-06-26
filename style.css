@@ -1,12 +1,29 @@
 /*
-Theme Name:   Twenty Seventeen Child
+Theme Name:   Panoramic-child
 Theme URI:    https://github.com/jibundeyare/src-wordpress-child-theme
-Description:  Twenty Seventeen Child Theme
-Author:       Jibundeyare
+Description:  Panoramic child theme
+Author:       Virginie Dureuil
 Author URI:   https://github.com/jibundeyare/
-Template:     twentyseventeen
+Template:     panoramic
 Version:      1.0.0
 */
 
 /* put your css code here */
 
+body {
+    background-image: url("img/fond");
+    background-repeat: repeat;
+}
+
+.widget-area {
+    background-color: white;
+    border: 1px solid pink;
+    float: right;
+}
+
+.content-area {
+    background-color: white;
+    border: 1px solid lightblue;
+    width: 72%;
+    padding: 2em;
+}
